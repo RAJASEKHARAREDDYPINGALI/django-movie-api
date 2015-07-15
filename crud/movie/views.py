@@ -8,6 +8,7 @@ from movie.models import Movie
 class MovieListView(ListView):
     model = Movie
 
+
 class MovieCreateView(CreateView):
     model = Movie
     fields = ['title']
